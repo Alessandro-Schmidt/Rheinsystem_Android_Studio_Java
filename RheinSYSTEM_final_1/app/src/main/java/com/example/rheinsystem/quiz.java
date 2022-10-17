@@ -27,13 +27,10 @@ public class quiz extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
-        ImageButton btn_return = (ImageButton) findViewById(R.id.btn_return);
-        btn_return.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent_main = new Intent(quiz.this, MainActivity.class);
-                startActivity(intent_main);
-            }
+        ImageButton btn_return = findViewById(R.id.btn_return);
+        btn_return.setOnClickListener(v -> {
+            Intent intent_main = new Intent(quiz.this, MainActivity.class);
+            startActivity(intent_main);
         });
         questionTV = findViewById(R.id.TVQuestion);
         questionNumberTV = findViewById(R.id.idquestionattempted);
@@ -45,50 +42,38 @@ public class quiz extends AppCompatActivity {
         getQuizQuestion(quizModelArrayList);
         currentPos = 0;
         setDatatoViews(currentPos);
-        option1Btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(quizModelArrayList.get(currentPos).getAnswer().trim().toLowerCase().equals(option1Btn.getText().toString().trim().toLowerCase())){
-                    currentScore++;
-                }
-                questionAttemped++;
-                currentPos++;
-                setDatatoViews(currentPos);
+        option1Btn.setOnClickListener(v -> {
+            if(quizModelArrayList.get(currentPos).getAnswer().trim().toLowerCase().equals(option1Btn.getText().toString().trim().toLowerCase())){
+                currentScore++;
             }
+            questionAttemped++;
+            currentPos++;
+            setDatatoViews(currentPos);
         });
-        option2Btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(quizModelArrayList.get(currentPos).getAnswer().trim().toLowerCase().equals(option2Btn.getText().toString().trim().toLowerCase())){
-                    currentScore++;
-                }
-                questionAttemped++;
-                currentPos++;
-                setDatatoViews(currentPos);
+        option2Btn.setOnClickListener(v -> {
+            if(quizModelArrayList.get(currentPos).getAnswer().trim().toLowerCase().equals(option2Btn.getText().toString().trim().toLowerCase())){
+                currentScore++;
             }
+            questionAttemped++;
+            currentPos++;
+            setDatatoViews(currentPos);
         });
-        option3Btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(quizModelArrayList.get(currentPos).getAnswer().trim().toLowerCase().equals(option3Btn.getText().toString().trim().toLowerCase())){
-                    currentScore++;
-                }
-                questionAttemped++;
-                currentPos++;
-                setDatatoViews(currentPos);
+        option3Btn.setOnClickListener(v -> {
+            if(quizModelArrayList.get(currentPos).getAnswer().trim().toLowerCase().equals(option3Btn.getText().toString().trim().toLowerCase())){
+                currentScore++;
+            }
+            questionAttemped++;
+            currentPos++;
+            setDatatoViews(currentPos);
 
-            }
         });
-        option4Btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(quizModelArrayList.get(currentPos).getAnswer().trim().toLowerCase().equals(option4Btn.getText().toString().trim().toLowerCase())){
-                    currentScore++;
-                }
-                questionAttemped++;
-                currentPos++;
-                setDatatoViews(currentPos);
+        option4Btn.setOnClickListener(v -> {
+            if(quizModelArrayList.get(currentPos).getAnswer().trim().toLowerCase().equals(option4Btn.getText().toString().trim().toLowerCase())){
+                currentScore++;
             }
+            questionAttemped++;
+            currentPos++;
+            setDatatoViews(currentPos);
         });
     }
 
@@ -112,15 +97,12 @@ public class quiz extends AppCompatActivity {
         TextView scoreTV = bottomSheetView.findViewById(R.id.TVScore);
         Button restartQuizBtn = bottomSheetView.findViewById(R.id.idBTNrestart);
         scoreTV.setText("Dein Ergebnis ist\n" +currentScore+"/5");
-        restartQuizBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                currentPos = 0;
-                setDatatoViews(currentPos);
-                questionAttemped = 1;
-                currentScore=0;
-                bottomSheetDialog.dismiss();
-            }
+        restartQuizBtn.setOnClickListener(v -> {
+            currentPos = 0;
+            setDatatoViews(currentPos);
+            questionAttemped = 1;
+            currentScore=0;
+            bottomSheetDialog.dismiss();
         });
         //bottomSheetDialog.setCancelable(false);
         bottomSheetDialog.setContentView(bottomSheetView);
