@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">RheinSYS</string>
+    <string name="background">background</string>
+    <string name="logo">logo</string>
+    <string name="btn_video">btn_video</string>
+    <string name="btn_ico_uberuns">Btn_Über_Uns</string>
+    <string name="btn_ico_wasserkraft">Btn_wasserkraft</string>
+    <string name="btn_ico_projekte">btn_projekte</string>
+    <string name="btn_ico_quizz">btn_Quiz</string>
+    <string name="btn_uberUns">Über uns</string>
+    <string name="btn_wasserkraft">Wasserkraft</string>
+    <string name="btn_projekte">Projekte</string>
+    <string name="btn_quiz">Spiele/Quiz</string>
+    <string name="retornar">retornar</string>
+    <string name="uberUns">Uber Uns</string>
+    <string name="wasserkraft">Wasserkraft</string>
+    <string name="projekte">Projekte</string>
+    <string name="wasistRhein">Was ist Rheinsharing?</string>
+    <string name="untertitleUberUns">Die Mobilität der Zukunft!</string>
+    <string name="txt_first_uberuns">Das Ziel von RheinSharing ist eine effizientere und
+        klimaneutraler Mobilität in der Kölner Innenstadt zu ermöglichen. Die Turbinen werden in
+        strömungsstarken Uferbereichen direkt in die Strömung eingesetzt und gewinnen aus der
+        Bewegungsenergie des Wassers elektrischen Strom, ohne dabei mit der Schifffahrt zu
+        kollidieren. Um besonders effizient und wirklich nachhaltig die erneuerbaren Energien zu
+        nutzen, müssen die Wege zwischen Energieerzeugung und -Verbrauch so kurz wie möglich sein.
+        So sieht RheinSharing vor, den aus dem Fluss gewonnenen Strom über Ladepunkte für den
+        E-Mobilitätssektor in einer dafür vorgesehenen architektonischen Lösung zur Verfügung zu
+        stellen. Ein erheblicher Ausbau der Ladeinfrastruktur vor allem für die Mikromobile in der
+        Innenstadt Kölns hat zur Folge, dass die Angebote für die geteilte Nutzung von
+        klimaneutralen Fahrzeugen in Ballungsräumen steigen, die Anzahl der privaten
+        Verbrennungsfahrzeugen sinkt und die Stadt Köln grüner werden kann. Fahr mit einem Rhein’en
+        Gewissen!</string>
+    <string name="txt_second_uberuns">
+        RheinSharing besteht aus Studierenden der Architektur sowie dem Engineering, welche sich im
+        Rahmen der Ford Fund Smart Mobility Challenge zusammengefunden haben. Die Challenge verfolgt
+        das Ziel, nachhaltige Mobilitätskonzepte für den urbanen Raum auszuarbeiten. So entstand die
+        Idee von RheinSharing, innovative Wasserkraftwerke mit zeitgemäßer/nachhaltiger Architektur
+        zu kombinieren, um aus der Strömungsenergie des Rheins grünen Strom zu gewinnen und diesen
+        für den nachhaltigen Ausbau der Ladeinfrastruktur in Köln zu nutzen.
+    </string>
+    <string name="das_team">Das Team</string>
+    <string name="name_marcel">Marcel Heilich</string>
+    <string name="desc_one_marcel">Projektmanagement, Engineering</string>
+    <string name="desc_two_marcel">M.Sc. Fahrzeugtechnik</string>
+    <string name="name_feliz">Felix Roder</string>
+    <string name="desc_one_felix">Projektmanagement, Engineering</string>
+    <string name="desc_two_felix">B.Eng. Fahrzeugtechnik</string>
+    <string name="name_mariana">Mariana Prado</string>
+    <string name="desc_one_mariana">Projektmanagement, Architektur</string>
+    <string name="desc_two_mariana">Visualisierung B.A. Architektur</string>
+    <string name="name_meryem">Meryem Gencel</string>
+    <string name="desc_one_meryem">Architektur, Konstruktion</string>
+    <string name="desc_two_meryem">B.A. Architektur</string>
+    <string name="name_anna">Anna Schmitz</string>
+    <string name="desc_one_anna">Architektur, Konstruktion</string>
+    <string name="desc_two_anna">B.A. Architektur</string>
+    <string name="name_zher">Zher Hassan</string>
+    <string name="desc_one_zher">Architektur, Konstruktion</string>
+    <string name="desc_two_zher">B.A. Architektur</string>
+    <string name="title_rheinauhafen">Rheinauhafen</string>
+
+    <string name="first_txt_rheinauhafen">Das Projekt “Rheinauhafen“ zeigt die Pilotplanung
+        von RheinSharing,wie in unmittelbarer Nähe vom Erzeugungsort in der Kölner Innenstadt
+        grüne Energie für den Mobilitätssektor zur Verfügung gestellt
+        werden kann. Mit direktem Zugang zum Rhein stellt der großzügige
+        Harry-Blum-Platz einen idealen Standort für den ersten Entwurf von
+        RheinSharing dar. Eine moderne Architektur verbindet über eine
+        Plattform innovative Kleinwasserkraftwerke, die Strömung des
+        Rheins nutzen und in den Stützen des Überbaus geführt werden. Die
+        Plattform bildet eine Verlängerung des städtischen Raumes, ohne
+        dabei Fläche zu versiegeln und macht so den Rhein zu einem greifbaren
+        Teil der Stadt. Hier entsteht ein Ort zum Entspannen, Kommunizieren
+        und zum Lernen. Die barrierefreie Plattform lädt die Besucher
+        dazu ein zu verweilen, zu genießen, den Rhein zu erleben und
+        sich über zukünftige Energiegewinnungskonzepte weiterzubilden
+        und in Austausch zu treten.</string>
+    <string name="second_txt_rheinauhafen">Der zukunftsorientierte Baukörper aus Metall, Holz und Glas beinhaltet verschiedene Ladeplätze für innerstädtische Micromobilität,
+wie L7e-Fahrzeuge, E-Scooter, E-Bikes sowie Tausch-Akkus und
+steht den Besuchern rund um die Uhr zur Verfügung.</string>
+
+    <string name="prototyp">Prototyp</string>
+    <string name="txt_proto">RheinSharing fertigt einen ersten Prototypen eines
+        Kleinwasserkraftwerks mit einem maximalen Durchmesser von 1,2 m und einer Länge von rund
+        2,6 m. Dieser Prototyp soll primär die rechnerische Ertragsprognose validieren und die
+        Investitionsentscheidung für größere und kostenintensivere Prototypen erleichtern. Gefertigt
+        wird der Prototyp in Handarbeit mittels Glasfaserlaminat, einer Einfassung im Mittenbereich
+        aus Stahl sowie einer umgebenden Stützstruktur. Die Testumgebung für den Prototypen soll der
+        Rhein sein, da auf diesem Wege bereits einige Realeinflüsse für diesen Anwendungsfall mit
+        erprobt werden können.</string>
+
+    <string name="ford_rhein">
+        Ford und RheinSharing, hervorgegangen aus einer interdisziplinären Studierendeninitiative
+        der Technischen Hochschule (TH) Köln, haben ein Memorandum of Understanding (MoU)
+        unterzeichnet. Die sechs Studierenden der Fahrzeugtechnik und Architektur hatten März
+        2021 den zweiten Platz der Ford Fund Smart Mobility Challenge mit ihrer Idee gewonnen,
+        erneuerbare Energie durch die Strömung des Rheins zu gewinnen und diese unmittelbar zur
+        Energieversorgung von Mobilitätsstationen zur Stromversorgung von Elektrofahrzeugen zu
+        nutzen. Ausgehend von dem in dem Wettbewerb ausgearbeiteten Entwurf für den Rheinauhafen in
+        Köln soll im Rahmen der Zusammenarbeit ein Konzept für das ebenfalls am Rhein gelegene Ford
+        Werkgelände entwickelt werden. Grundlegend soll für den Standort Köln-Niehl untersucht
+        werden, ob der Einsatz neuartiger Wasserkraftwerke im Rhein zur Erzeugung von klimaneutralem
+        Strom auch in der Praxis möglich wäre. Teil der Machbarkeitsstudie sind Messungen der
+        Strömungsgeschwindigkeit, Energiegewinnungsprognosen oder auch Kostenschätzungen.
+    </string>
+
+    <string name="kraftwerk">Kraftwerk</string>
+
+    <string name="txt_kraftwerk">Die in den Rhein eingelassenen Turbinen unter der rund 100 Meter
+        langen und ca. 20 Meter in den Rhein hineinragenden Plattform sorgen für die Produktion von
+        grünem Strom aus Wasserkraft und die Versorgung verschiedenster Elektro-Fahrzeuge für den
+        innerstädtischen Verkehr. Durch die neu entwickelte strömungsoptimierende Form der
+        Kraftwerke wird eine hohe Effizienz und eine hohe Leistungsfähigkeit erreicht. Mit einer
+        variablen Höhenverstellung der Strömungsmaschinen wird jederzeit zu jedem Pegelstand des
+        Rheins eine Positionierung im strömungsstärksten Bereich gewährleistet. Über
+        anstellwinkelverstellbare Schaufelblätter, welche sich an der engsten Stelle des
+        Strömungskörpers befinden, wird ein Generator
+direkt angetrieben. Die erzeugte Energie wird auf kürzestem Weg in die Mobilitätsstation geleitet.
+        Der Rheinauhafen, ein Ort des Lebens, des Fortschrittes und einer grünen Zukunft.</string>
+
+    <string name="ignorea">ignore</string>
+    <string name="ignoreb">ignore</string>
+    <string name="ignorec">ignore</string>
+    <string name="ignored">ignore</string>
+    <string name="ignoree">ignore</string>
+    <string name="ignoref">ignore</string>
+    <string name="imageIgnore">Image</string>
+    <string name="ignoreg">ignore</string>
+    <string name="num_questions">Number of Questions</string>
+    <string name="result">Your Score is </string>
+
+</resources>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_uu"
+    android:layout_width="1920dp"
+    android:layout_height="wrap_content"
+    tools:context=".aboutus"
+    android:orientation="vertical"
+    tools:ignore="SpeakableTextPresentCheck">
+
+  <RelativeLayout
+      android:id="@+id/linear_layout_aboutus"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/btn_return"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:clickable="true"
+        android:minHeight="48dp"
+        android:src="@drawable/tab_return"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/title_about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55sp"
+        android:layout_marginTop="37sp"
+        android:text="@string/uberUns"
+        android:textColor="#F9F9F9"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/txt_uber_rhein_container"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="750dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/title_uber_uns"
+          android:layout_width="400dp"
+          android:layout_height="wrap_content"
+          android:text="@string/wasistRhein"
+          android:textSize="32sp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/untertitel_uberuns"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/untertitleUberUns"
+          android:textColor="#28538F"
+          android:textSize="28sp" />
+
+      <TextView
+          android:id="@+id/text_first_uberuns"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/txt_first_uberuns"
+          android:textSize="18sp" />
+
+      <TextView
+          android:id="@+id/second_text_uberuns"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="25dp"
+          android:text="@string/txt_second_uberuns"
+          android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/photo_everyone"
+        android:layout_width="512dp"
+        android:layout_height="521dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/gruppenbild_round"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="610dp"
+        android:layout_marginTop="1200dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/das_team"
+        android:textColor="#28538F"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!--
+    grid for Marcel
+    -->
+
+    <GridLayout
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="1300dp"
+        android:columnCount="2"
+        android:rowCount="1">
+
+      <ImageView
+          android:id="@+id/marcel_pic"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="0"
+          android:scaleType="centerInside"
+          android:src="@drawable/marcel_round" />
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="1"
+          android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/name_marcel"
+            android:textColor="#28538F"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_one_marcel"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_two_marcel"
+            android:textSize="28sp" />
+      </LinearLayout>
+    </GridLayout>
+
+    <!--
+    grid for felix
+    -->
+    <GridLayout
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="1500dp"
+        android:columnCount="2"
+        android:rowCount="1">
+
+      <LinearLayout
+          android:layout_width="547dp"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="0"
+          android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/name_feliz"
+            android:textColor="#28538F"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_one_felix"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="123dp"
+            android:text="@string/desc_two_felix"
+            android:textSize="28sp" />
+      </LinearLayout>
+
+      <ImageView
+          android:id="@+id/felix_pic"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="1"
+          android:scaleType="fitStart"
+          android:src="@drawable/felix_round" />
+    </GridLayout>
+
+
+    <!--
+    grid for Mariana Prado
+    -->
+
+    <GridLayout
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="1700dp"
+        android:columnCount="2"
+        android:rowCount="1">
+
+      <ImageView
+          android:id="@+id/mariana_pic"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="0"
+          android:scaleType="centerInside"
+          android:src="@drawable/mariana_round" />
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="1"
+          android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/name_mariana"
+            android:textColor="#28538F"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_one_mariana"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_two_mariana"
+            android:textSize="28sp" />
+      </LinearLayout>
+    </GridLayout>
+
+
+    <!--
+    grid for Meryem
+    -->
+
+    <GridLayout
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="1900dp"
+        android:columnCount="2"
+        android:rowCount="1">
+
+      <LinearLayout
+          android:layout_width="547dp"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="0"
+          android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/name_meryem"
+            android:textColor="#28538F"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:text="@string/desc_one_meryem"
+            android:textSize="28sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="258dp"
+            android:text="@string/desc_two_meryem"
+            android:textSize="28sp" />
+      </LinearLayout>
+
+      <ImageView
+          android:id="@+id/meryem_pic"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="1"
+          android:scaleType="fitStart"
+          android:src="@drawable/meryem_round" />
+    </GridLayout>
+
+    <!--
+    grid for anna
+    -->
+
+    <GridLayout
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="2100dp"
+        android:columnCount="2"
+        android:rowCount="1">
+
+      <ImageView
+          android:id="@+id/anna_pic"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="0"
+          android:scaleType="centerInside"
+          android:src="@drawable/anna_round" />
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="1"
+          android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/name_anna"
+            android:textColor="#28538F"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_one_anna"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_two_anna"
+            android:textSize="28sp" />
+      </LinearLayout>
+    </GridLayout>
+
+
+    <!--
+    grid for Zher
+    -->
+
+    <GridLayout
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="2300dp"
+        android:layout_marginBottom="100dp"
+        android:columnCount="2"
+        android:rowCount="1">
+
+      <LinearLayout
+          android:layout_width="547dp"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="0"
+          android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="285dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/name_zher"
+            android:textColor="#28538F"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:text="@string/desc_one_zher"
+            android:textSize="28sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="258dp"
+            android:text="@string/desc_two_zher"
+            android:textSize="28sp" />
+      </LinearLayout>
+
+      <ImageView
+          android:id="@+id/zher_pic"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="1"
+          android:scaleType="fitStart"
+          android:src="@drawable/zher_round" />
+    </GridLayout>
+
+  </RelativeLayout>
+
+
+</ScrollView>

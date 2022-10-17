@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".hydropower"
+    android:id="@+id/id_scroll_hp"
+    >
+
+    <ImageButton
+        android:id="@+id/btn_return"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:clickable="true"
+        android:contentDescription="@string/ignorea"
+        android:focusable="true"
+        android:minHeight="48dp"
+        android:src="@drawable/tab_return"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/title_hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="37sp"
+        android:text="@string/wasserkraft"
+        android:textColor="#F9F9F9"
+        android:textSize="25sp"
+        tools:ignore="TextContrastCheck" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="700dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="110dp"
+        android:contentDescription="@string/btn_ico_quizz">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fkft_eins"
+                android:contentDescription="@string/ignoree" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fkft_zwei"
+                tools:ignore="ImageContrastCheck"
+                android:contentDescription="@string/ignored" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fkft_drei"
+                android:contentDescription="@string/ignorec" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fkft_vierr"
+                android:contentDescription="@string/ignoreb" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="60dp"
+                android:src="@drawable/carousel___rhenisys"
+                android:contentDescription="@string/ignored" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

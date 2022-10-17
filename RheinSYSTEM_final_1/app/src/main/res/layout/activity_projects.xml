@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_pj"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".projects"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <RelativeLayout
+        android:id="@+id/relative_projects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btn_return"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:clickable="true"
+            android:focusable="true"
+            android:minHeight="48dp"
+            android:src="@drawable/tab_return"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/title_about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55sp"
+            android:layout_marginTop="37sp"
+            android:text="@string/projekte"
+            android:textColor="#F9F9F9"
+            android:textSize="25sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/title_rheinauhafen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/title_rheinauhafen"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/first_rheinauhafen"
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="210dp"
+            android:background="#00FFFFFF"
+            android:scaleType="fitStart"
+            android:src="@drawable/msrs_210128_k01_waterfront_final" />
+
+        <TextView
+            android:layout_width="460dp"
+            android:layout_height="wrap_content"
+            android:text="@string/first_txt_rheinauhafen"
+            android:textSize="16sp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="675dp" />
+
+        <TextView
+            android:layout_width="460dp"
+            android:layout_height="wrap_content"
+            android:text="@string/second_txt_rheinauhafen"
+            android:textSize="16sp"
+            android:layout_marginTop="540dp"
+            android:layout_marginLeft="675dp" />
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="690dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/po_innen_one" />
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            android:src="@drawable/po_innen_two"
+            android:scaleType="fitStart"
+            android:layout_marginLeft="675dp"
+            android:layout_marginTop="690dp" />
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            android:src="@drawable/po_inner_three"
+            android:scaleType="fitStart"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="1170dp" />
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            android:layout_marginLeft="675dp"
+            android:layout_marginTop="1170dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/po_grundniss_four" />
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            android:src="@drawable/po_rhein_iso_five"
+            android:scaleType="fitStart"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="1650dp" />
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            android:layout_marginLeft="675dp"
+            android:layout_marginTop="1650dp"
+            android:layout_marginBottom="240dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/po_schwarzplan_rs_six" />
+
+        <!--
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2250dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/prototyp"
+                android:textSize="42sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_marginTop="75dp"
+                android:id="@+id/prototype"
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/prototype" />
+
+            <TextView
+                android:layout_width="460dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_proto"
+                android:textSize="16sp"
+                android:layout_marginTop="210dp"
+                android:layout_marginLeft="675dp" />
+        </RelativeLayout>
+        -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2100dp"
+            android:layout_marginBottom="200dp">
+
+            <TextView
+                android:layout_width="460dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ford_rhein"
+                android:textSize="16sp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="150dp" />
+
+            <ImageView
+                android:layout_marginTop="75dp"
+                android:id="@+id/ford"
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginLeft="675dp"
+                android:src="@drawable/ford_rhein" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
