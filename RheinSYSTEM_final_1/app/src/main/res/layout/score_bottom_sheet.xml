@@ -20,7 +20,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Restart Quiz"
+        android:text="@string/restart_quiz"
         android:textAllCaps="false"
         android:layout_marginTop="50dp"
         android:id="@+id/idBTNrestart" />

@@ -127,5 +127,11 @@ direkt angetrieben. Die erzeugte Energie wird auf k√ºrzestem Weg in die Mobilit√
     <string name="ignoreg">ignore</string>
     <string name="num_questions">Number of Questions</string>
     <string name="result">Your Score is </string>
+    <string name="question">Question</string>
+    <string name="option_1">option 1</string>
+    <string name="option_2">option 2</string>
+    <string name="option_4">option 4</string>
+    <string name="option_3">option 3</string>
+    <string name="restart_quiz">Restart Quiz</string>
 
 </resources>
