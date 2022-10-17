@@ -25,13 +25,15 @@
         android:clickable="true"
         android:minHeight="48dp"
         android:src="@drawable/tab_return"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        android:contentDescription="@string/imageIgnore"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/title_about_us"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="55sp"
+        android:layout_marginStart="55sp"
         android:layout_marginTop="37sp"
         android:text="@string/uberUns"
         android:textColor="#F9F9F9"
@@ -41,7 +43,7 @@
         android:id="@+id/txt_uber_rhein_container"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="750dp"
+        android:layout_marginStart="750dp"
         android:layout_marginTop="200dp"
         android:orientation="vertical">
 
@@ -81,16 +83,15 @@
         android:id="@+id/photo_everyone"
         android:layout_width="512dp"
         android:layout_height="521dp"
-        android:layout_marginLeft="150dp"
+        android:layout_marginStart="150dp"
         android:layout_marginTop="200dp"
         android:src="@drawable/gruppenbild_round"
-
+        android:contentDescription="@string/imageIgnore"
         />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="610dp"
+        android:layout_marginStart="610dp"
         android:layout_marginTop="1200dp"
         android:layout_marginBottom="100dp"
         android:text="@string/das_team"
@@ -105,7 +106,7 @@
     <GridLayout
         android:layout_width="800dp"
         android:layout_height="150dp"
-        android:layout_marginLeft="300dp"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="1300dp"
         android:columnCount="2"
         android:rowCount="1">
@@ -117,7 +118,8 @@
           android:layout_row="0"
           android:layout_column="0"
           android:scaleType="centerInside"
-          android:src="@drawable/marcel_round" />
+          android:src="@drawable/marcel_round"
+          android:contentDescription="@string/imageIgnore"/>
 
       <LinearLayout
           android:layout_width="wrap_content"
@@ -154,7 +156,7 @@
     <GridLayout
         android:layout_width="800dp"
         android:layout_height="150dp"
-        android:layout_marginLeft="300dp"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="1500dp"
         android:columnCount="2"
         android:rowCount="1">
@@ -169,7 +171,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="250dp"
+            android:layout_marginStart="250dp"
             android:layout_marginBottom="15dp"
             android:text="@string/name_feliz"
             android:textColor="#28538F"
@@ -184,12 +186,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="123dp"
+            android:layout_marginStart="123dp"
             android:text="@string/desc_two_felix"
             android:textSize="28sp" />
       </LinearLayout>
 
       <ImageView
+          android:contentDescription="@string/imageIgnore"
           android:id="@+id/felix_pic"
           android:layout_width="250dp"
           android:layout_height="wrap_content"
@@ -207,12 +210,13 @@
     <GridLayout
         android:layout_width="800dp"
         android:layout_height="150dp"
-        android:layout_marginLeft="300dp"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="1700dp"
         android:columnCount="2"
         android:rowCount="1">
 
       <ImageView
+          android:contentDescription="@string/imageIgnore"
           android:id="@+id/mariana_pic"
           android:layout_width="250dp"
           android:layout_height="wrap_content"
@@ -258,7 +262,7 @@
     <GridLayout
         android:layout_width="800dp"
         android:layout_height="150dp"
-        android:layout_marginLeft="300dp"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="1900dp"
         android:columnCount="2"
         android:rowCount="1">
@@ -273,7 +277,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="250dp"
+            android:layout_marginStart="250dp"
             android:layout_marginBottom="15dp"
             android:text="@string/name_meryem"
             android:textColor="#28538F"
@@ -282,7 +286,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="145dp"
+            android:layout_marginStart="145dp"
             android:text="@string/desc_one_meryem"
             android:textSize="28sp" />
 
@@ -290,12 +294,13 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="258dp"
+            android:layout_marginStart="258dp"
             android:text="@string/desc_two_meryem"
             android:textSize="28sp" />
       </LinearLayout>
 
       <ImageView
+          android:contentDescription="@string/imageIgnore"
           android:id="@+id/meryem_pic"
           android:layout_width="250dp"
           android:layout_height="wrap_content"
@@ -312,12 +317,13 @@
     <GridLayout
         android:layout_width="800dp"
         android:layout_height="150dp"
-        android:layout_marginLeft="300dp"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="2100dp"
         android:columnCount="2"
         android:rowCount="1">
 
       <ImageView
+          android:contentDescription="@string/imageIgnore"
           android:id="@+id/anna_pic"
           android:layout_width="250dp"
           android:layout_height="wrap_content"
@@ -363,7 +369,7 @@
     <GridLayout
         android:layout_width="800dp"
         android:layout_height="150dp"
-        android:layout_marginLeft="300dp"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="2300dp"
         android:layout_marginBottom="100dp"
         android:columnCount="2"
@@ -379,7 +385,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="285dp"
+            android:layout_marginStart="285dp"
             android:layout_marginBottom="15dp"
             android:text="@string/name_zher"
             android:textColor="#28538F"
@@ -388,7 +394,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="145dp"
+            android:layout_marginStart="145dp"
             android:text="@string/desc_one_zher"
             android:textSize="28sp" />
 
@@ -396,12 +402,13 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="258dp"
+            android:layout_marginStart="258dp"
             android:text="@string/desc_two_zher"
             android:textSize="28sp" />
       </LinearLayout>
 
       <ImageView
+          android:contentDescription="@string/imageIgnore"
           android:id="@+id/zher_pic"
           android:layout_width="250dp"
           android:layout_height="wrap_content"
