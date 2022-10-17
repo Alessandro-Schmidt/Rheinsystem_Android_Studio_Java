@@ -6,10 +6,10 @@
         <entry key="app/src/main/res/layout/activity_aboutus.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_great_things.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_hydropower.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_kraftwerk.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_kraftwerk.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1962936401367188" />
         <entry key="app/src/main/res/layout/activity_projects.xml" value="0.20179037672510258" />
-        <entry key="app/src/main/res/layout/activity_prototyp.xml" value="0.1157251993815103" />
+        <entry key="app/src/main/res/layout/activity_prototyp.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.14088541666666668" />
         <entry key="app/src/main/res/layout/activity_video.xml" value="0.14088541666666668" />
         <entry key="app/src/main/res/layout/kraftwerk.xml" value="0.14088541666666668" />
